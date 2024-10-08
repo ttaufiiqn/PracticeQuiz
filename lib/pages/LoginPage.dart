@@ -145,7 +145,7 @@ class _LoginPageState extends State<LoginPage> {
       child: ElevatedButton(
         style: ButtonStyle(
           backgroundColor: WidgetStateProperty.all(
-            isClicked ? Colors.teal : Colors.tealAccent[400],
+            isClicked ? Colors.teal : Colors.tealAccent[200],
           ),
           padding: WidgetStateProperty.all(const EdgeInsets.symmetric(vertical: 15)),
           shape: WidgetStateProperty.all(
